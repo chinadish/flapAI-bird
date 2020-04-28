@@ -1,5 +1,6 @@
 import pygame
 from pygame.locals import *
+import time
 from player import Player
 from player import Obstacle
 import cfg
@@ -90,4 +91,6 @@ def main():
 		cfg.delta = clock.tick(60)
 
 main()
+
+time.sleep(2)
 pygame.quit()
